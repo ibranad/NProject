@@ -1,0 +1,21 @@
+{
+  'Marrakesh': {
+    id: 1
+  },
+
+  'Casablanca': {
+    id: 2
+  },
+
+  'Fes': {
+    id: 3
+  },
+
+  'Sale': {
+    id: 4
+  },
+
+  'Beni Mellal': {
+    id: 5
+  }
+}

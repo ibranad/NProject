@@ -1,0 +1,35 @@
+Salam chabab,
+
+This folder is only kept for model side, (the databases side).
+
+WHAT A FRONT_END SHOULD DO?
+
+Frontend a chabab khasso y assumi w ydir fdmagho ana dik data li ghatjih mn db already exist fwa7ed l file.json, matalan ila kent khdam 3la profile page, w user has 5 crucial attributes li homa
+{
+  id: 1
+  firstName: Hicham,
+  lastName: Elmefeddel,
+  password: arsenal123,
+  email: elmefeddelhicham@gmail.com
+}
+
+Then as a frontend khasni nkhdm f profileDemo.json w n7t fih had data bach haka tatsshal lkhedma bin 2 sides frontend and backend.
+
+WHAT A BACKE_END SHOULD DO?
+
+Ila kan frontend lkhedma dialo y assumi ana dik data deja kayna, fa backend lkhedma dialo hya ywjd schema li ghadii nkhdmo 3liha,w y3ti l chabab folder structure li mslka bach ykhdmo, also responsibility dial backend anaho y sawb demoFiles for frontend.
+
+Ymkn nsawbo folder smito demo li kept only l testing w howa li frontend ghadi ytbasaw 3lih, but f production of course data ghadii tji mn db maybe f had model folder ykono 2 dbs (postgresql and neo4j) awla (mongodb and neo4j) as long as tech stack mazal mam7ddch mzn we cannot say hadi awla lakhra.
+
+The most important thing to keep into your mind guys, howa had folder is structured as follows:
+ - demo
+   * profile.json
+   * cities.json
+   * survey.json
+   ... etc (still not 100% decided which one)
+
+ - model_1 (maybe neo4j for recommendation system)
+ - model_2 (maybe mongodb or postgres for storing data)
+ - Dockerfile
+
+

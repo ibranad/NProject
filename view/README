@@ -1,0 +1,9 @@
+Salam chabab,
+
+This folder is all about the view side, here where all the ReactNative code will be inside, we are working with MVC pattern therefore this one is only for the frontend you can name it.
+
+Please note that the npx react-native init should run on this folder, the api and model are completely isolated.
+
+This isolatation of course will help us if we want to switch the backend logic from js to python, or to golang in the future or whatever, feel free a chabab to work on the react-native app in this folder.
+
+view aka frontend.

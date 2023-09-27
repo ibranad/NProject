@@ -1,0 +1,20 @@
+This folder will contain all what's necessary to manipulate the database.
+
+However, it's the work of a backend developer to do this, for the front-end part all what they should care about is fetching data from the endpoints we'll provide them with in the api documentation.
+
+Our api will be RESTful, no GraphQL nothing complex
+
+to fetch user data for example just hit this endpoint: server.com/user/{userId}
+to fetch city data for example just hit this endpoint: server.com/city/{cityId}
+
+We'll document this kind of API before providing it to the frontend, therefore they can be 100% that the data they'll get is exactly what they need.
+
+Also, the following systems logic should be provided at the api level as well:
+ - RecommendatioSystem
+ - DiscoverySystem
+ - NearPlaces
+ - PlacesSuggestion
+ - RandomSuggestion
+ - ... etc the more feature we can provide with good performance the better
+
+Hopefully, this file provides a clear documenttion for what this api folder is all about
